@@ -3,4 +3,5 @@ uvicorn
 pydantic
 python-multipart
 openai
-faiss-cpu
+httpx
+pytest

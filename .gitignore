@@ -1,3 +1,13 @@
-# Ignore Python virtual environment and bytecode cache
-#backend/venv/
-backend/__pycache__/
+# Python
+__pycache__/
+*.py[cod]
+.env
+backend/venv/
+.venv/
+
+# Node
+node_modules/
+frontend/build/
+
+# OS
+.DS_Store
